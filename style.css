@@ -1,0 +1,218 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
+
+/* Header Container */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; /* Điều chỉnh khoảng cách */
+}
+
+/* Logo trên header (nhỏ lại) */
+.logo img {
+    height: 100px; /* Giảm kích thước logo trên */
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+/* School Name */
+.school-name h1 {
+    font-size: 45px; /* Điều chỉnh font chữ */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #002040;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('banner.jpg') no-repeat center center/cover;
+    height: 350px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Banner Content */
+.banner-content {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+/* Logo trong banner (to hết khung) */
+.logo-large img {
+    width: 100%; /* Chiều rộng 100% để vừa khung */
+    max-width: 350px; /* Giới hạn tối đa */
+    height: auto;
+    margin-right: 0;
+}
+
+/* Phần giới thiệu */
+.intro-text {
+    max-width: 700px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+.intro-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* News Section */
+.news {
+    padding: 30px;
+    text-align: center;
+}
+
+.news h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.news-item {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.news-item img {
+    width: 220px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #002040;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* ========== CSS Dành Cho Các Trang Tin Tức (news1, news2, news3) ========== */
+
+.news-page {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tiêu đề của trang tin tức */
+.news-page h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+/* Hình ảnh và lời bình luận */
+.news-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.news-content img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.news-content p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    max-width: 700px;
+}
+
+/* Nút quay lại trang chủ */
+.back-home {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #004080;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-home:hover {
+    background-color: #002040;
+}
+
+
+
+
+
+
